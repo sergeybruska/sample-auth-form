@@ -1,0 +1,62 @@
+@import "styles/_variables.scss";
+@import "styles/_mixin.scss";
+
+.sign-in {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex: 1;
+  padding-top: 80px;
+
+  form {
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+  }
+
+  &__head {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  &__subheader {
+    font-size: rem(14);
+    line-height: rem(22);
+    text-align: center;
+    font-weight: 300;
+    color: $type-primary;
+    margin: 0;
+    
+    a {
+      transition: all .2s;
+      border-bottom: 1px solid rgba(141, 86, 255, .7);
+      color: $color-primary;
+
+      &:hover {
+        color: $color-primary;
+        border-bottom: 1px solid rgba(141, 86, 255, 0);
+      }
+    }
+  }
+
+  &__inputbtn {
+    display: flex;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 0px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,73 @@
+@import "styles/_variables.scss";
+@import "styles/_mixin.scss";
+
+.header {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 70px;
+
+  &__logo {
+    flex-shrink: 0;
+    height: 32px;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &__row {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    &_auth {
+      justify-content: space-between;
+    }
+  }
+}
+
+.header-user {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  &__ava {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  &__box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 12px;
+  }
+
+  &__name {
+    font-size: rem(14);
+    line-height: rem(14);
+    text-align: left;
+    font-weight: 600;
+    color: $type-primary;
+    margin-bottom: 4px;
+  }
+
+  &__email {
+    font-size: rem(12);
+    line-height: rem(16);
+    text-align: left;
+    font-weight: 300;
+    color: $type-gray;
+  }
+}

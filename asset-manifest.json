@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sample-auth-form/static/css/main.474079f2.css",
+    "main.js": "/sample-auth-form/static/js/main.ab7159bd.js",
+    "static/media/space-grotesk-latin-ext-400-normal.woff": "/sample-auth-form/static/media/space-grotesk-latin-ext-400-normal.1ec0ba838a44f0a8da35.woff",
+    "static/media/space-grotesk-latin-400-normal.woff": "/sample-auth-form/static/media/space-grotesk-latin-400-normal.a241165d530c13dc0ca7.woff",
+    "static/media/space-grotesk-latin-400-normal.woff2": "/sample-auth-form/static/media/space-grotesk-latin-400-normal.0a4ba2bd1f7894e1cc0b.woff2",
+    "static/media/space-grotesk-latin-ext-400-normal.woff2": "/sample-auth-form/static/media/space-grotesk-latin-ext-400-normal.05e3af65b5da2af347ad.woff2",
+    "static/media/space-grotesk-vietnamese-400-normal.woff": "/sample-auth-form/static/media/space-grotesk-vietnamese-400-normal.f971e8522d1a432be3a7.woff",
+    "static/media/space-grotesk-vietnamese-400-normal.woff2": "/sample-auth-form/static/media/space-grotesk-vietnamese-400-normal.799f8d2e84c3f8dd8ca1.woff2",
+    "index.html": "/sample-auth-form/index.html",
+    "main.474079f2.css.map": "/sample-auth-form/static/css/main.474079f2.css.map",
+    "main.ab7159bd.js.map": "/sample-auth-form/static/js/main.ab7159bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.474079f2.css",
+    "static/js/main.ab7159bd.js"
+  ]
+}
